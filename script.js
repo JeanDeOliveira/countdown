@@ -5,7 +5,7 @@ const secondsEl = document.getElementById('seconds')
 const newYears = '1 Jan 2022'
 
 function countdown(){
-	const newYearsDate = new Date(newYeras)
+	const newYearsDate = new Date(newYears)
 	const currentDate = new Date();
 
 	const totalSecs = (currentDate - newYearsDate) / 1000
